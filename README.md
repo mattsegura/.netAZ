@@ -70,7 +70,7 @@ Linux-based OS :
 
 2. Run the application with the `dotnet run` command.
 
-## This sample shows how to do following operations to manage a Virtual Machine
+## This shows you how to do following operations to manage a Virtual Machine
  - Create a virtual machine with managed OS Disk
  - Start a virtual machine
  - Stop a virtual machine
