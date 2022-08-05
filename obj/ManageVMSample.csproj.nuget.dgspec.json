@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/matthewsegura/Projects/azure-samples-net-management/samples/compute/manage-virtual-machine/ManageVMSample.csproj": {}
+  },
+  "projects": {
+    "/Users/matthewsegura/Projects/azure-samples-net-management/samples/compute/manage-virtual-machine/ManageVMSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matthewsegura/Projects/azure-samples-net-management/samples/compute/manage-virtual-machine/ManageVMSample.csproj",
+        "projectName": "ManageVMSample",
+        "projectPath": "/Users/matthewsegura/Projects/azure-samples-net-management/samples/compute/manage-virtual-machine/ManageVMSample.csproj",
+        "packagesPath": "/Users/matthewsegura/.nuget/packages/",
+        "outputPath": "/Users/matthewsegura/Projects/azure-samples-net-management/samples/compute/manage-virtual-machine/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matthewsegura/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/matthewsegura/Projects/azure-samples-net-management/samples/utilities/Utilities.csproj": {
+                "projectPath": "/Users/matthewsegura/Projects/azure-samples-net-management/samples/utilities/Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matthewsegura/Projects/azure-samples-net-management/samples/utilities/Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matthewsegura/Projects/azure-samples-net-management/samples/utilities/Utilities.csproj",
+        "projectName": "Utilities",
+        "projectPath": "/Users/matthewsegura/Projects/azure-samples-net-management/samples/utilities/Utilities.csproj",
+        "packagesPath": "/Users/matthewsegura/.nuget/packages/",
+        "outputPath": "/Users/matthewsegura/Projects/azure-samples-net-management/samples/utilities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matthewsegura/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Azure.ResourceManager.AppConfiguration": {
+              "target": "Package",
+              "version": "[1.0.0-preview.1, )"
+            },
+            "Azure.ResourceManager.Communication": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Azure.ResourceManager.Compute": {
+              "target": "Package",
+              "version": "[1.0.0-preview.1, )"
+            },
+            "Azure.ResourceManager.EventHubs": {
+              "target": "Package",
+              "version": "[1.0.0-preview.1, )"
+            },
+            "Azure.ResourceManager.KeyVault": {
+              "target": "Package",
+              "version": "[1.0.0-preview.1, )"
+            },
+            "Azure.ResourceManager.Network": {
+              "target": "Package",
+              "version": "[1.0.0-preview.1, )"
+            },
+            "Azure.ResourceManager.Resources": {
+              "target": "Package",
+              "version": "[1.0.0-preview.1, )"
+            },
+            "Azure.ResourceManager.Storage": {
+              "target": "Package",
+              "version": "[1.0.0-preview.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

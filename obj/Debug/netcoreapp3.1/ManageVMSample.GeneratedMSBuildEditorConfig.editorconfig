@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = ManageVMSample
+build_property.ProjectDir = /Users/matthewsegura/Projects/azure-samples-net-management/samples/compute/manage-virtual-machine/
