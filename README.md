@@ -1,14 +1,5 @@
 
-# Getting started - Managing Virtual Machine using Azure .NET SDK
-
-This code sample will show you how to manage a Virtual Machine using Azure SDK for .NET.
-
-## Features
-
-This project framework provides examples for the following services:
-
-### Compute
-* You can find the details for the library [here](https://azure.github.io/azure-sdk/releases/latest/#dotnet).
+# Managing Virtual Machine using Azure .NET SDK
 
 ## Getting Started
 
